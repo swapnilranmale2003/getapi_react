@@ -8,6 +8,7 @@ import EventBinding from './components/EventBinding';
 import FunctionClick from './components/FunctionClick';
 import ParentsComponent from './components/ParentsComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 function App() {
   // const [data,setData]=useState(null);
   // const [edata,setEdata]=useState(null);
@@ -28,7 +29,8 @@ function App() {
     //  <ClassClick />
     //  <EventBinding/>
     //  <ParentsComponent />
-     <UserGreeting />
+    //  <UserGreeting />
+    <NameList />
      }
     </div>
   );
