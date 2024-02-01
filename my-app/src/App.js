@@ -7,6 +7,7 @@ import ClassClick from './components/ClassClick';
 import EventBinding from './components/EventBinding';
 import FunctionClick from './components/FunctionClick';
 import ParentsComponent from './components/ParentsComponent';
+import UserGreeting from './components/UserGreeting';
 function App() {
   // const [data,setData]=useState(null);
   // const [edata,setEdata]=useState(null);
@@ -26,8 +27,8 @@ function App() {
     //  <FunctionClick />
     //  <ClassClick />
     //  <EventBinding/>
-     <ParentsComponent />
-     
+    //  <ParentsComponent />
+     <UserGreeting />
      }
     </div>
   );

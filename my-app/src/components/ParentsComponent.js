@@ -13,6 +13,8 @@ class ParentsComponent extends Component {
     greetParent(childName){
         alert(`Hello ${this.state.parentName} from ${childName}`)
     }
+
+    
     
   render() {
 
